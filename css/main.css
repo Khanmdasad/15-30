@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&display=swap");
+:root {
+  --bg-color: #D8DAE2;
+  --container-bg: #eff0f1;
+  --text-color:#0E0E38;
+  --svg-color: #2C3E50;
+  --card-color: #EFF0F1;
+  --item-color:#FFFFFF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80vw;
+  background: var(--card-color);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+.container .upper-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.container .upper-container .text {
+  color: var(--text-color);
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .upper-container .item {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  padding: 0px 0px 20px 0px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--text-color);
+  line-height: normal;
+}
+.container .upper-container .item a {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px;
+  background: var(--item-color);
+  border-radius: 15px;
+}
+.container .lower-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+.container .lower-container .content {
+  background-color: var(--item-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.container .lower-container .content .side-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.container .lower-container .content .content-text {
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .lower-container .content .content-text .text {
+  color: var(--text-color);
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .lower-container .content .content-text .side-text {
+  color: var(--text-color);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}/*# sourceMappingURL=main.css.map */
